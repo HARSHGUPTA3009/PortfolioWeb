@@ -23,17 +23,17 @@ function Header() {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="img">
-              <img src="/dark/assets/imgs/intro/without bg.png" alt=""/>
+              <img src="/dark/assets/imgs/bgremove.png" alt=""/>
             </div>
           </div>
         </div>
       </div>
       <div className="caption">
         <h1 className="up stroke">
-          <span>I&#39;m a </span> <span>POLYMATH</span>
+          <span>I&#39;m a </span> <span>Developer</span>
         </h1>
         <h1 className="down">
-          <span>I&#39;m a </span> <span>POLYMATH</span>
+          <span>I&#39;m a </span> <span>Developer</span>
         </h1>
       </div>
     </div>

@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bord blur">
         <div className="container mx-auto px-4">
           <a className="logo icon-img-100" href="/">
-            <img src="/dark/assets/imgs/Reyanshlogo.png" alt="logo" />
+            <img src="/dark/assets/imgs/harsh.png" alt="logo" />
           </a>
 
           {/* <button
@@ -49,16 +49,7 @@ function Navbar() {
                   <span className="rolling-text">Projects</span>
                 </Link>
               </li>
-              <li className="nav-item" data-scroll-nav="4">
-                <Link className="nav-link" to="clients" smooth={true} duration={500}>
-                  <span className="rolling-text">Clients</span>
-                </Link>
-              </li>
-              <li className="nav-item" data-scroll-nav="5">
-                <Link className="nav-link" to="blog" smooth={true} duration={100}>
-                  <span className="rolling-text">Blog</span>
-                </Link>
-              </li>
+            
               <li className="nav-item" data-scroll-nav="6">
                 <Link className="nav-link" to="contact" smooth={true} duration={500}>
                   <span className="rolling-text">Contact</span>
@@ -77,7 +68,7 @@ function Navbar() {
 
       <div className="hamenu one-scroll lg:hidden">
         <div className="logo icon-img-100">
-          <img src="/dark/assets/imgs/Reyanshlogo.png" alt="" />
+          <img src="/dark/assets/imgs/harsh.png" alt="" />
         </div>
         <div className="close-menu cursor-pointer ti-close"></div>
         <div className="container mx-auto px-4">
@@ -128,24 +119,7 @@ function Navbar() {
                       </div>
                     </div>
                   </li>
-                  <li data-scroll-nav="4">
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <Link className="fill-text" to="clients" smooth={true} duration={500}>
-                          Clients
-                        </Link>
-                      </div>
-                    </div>
-                  </li>
-                  <li data-scroll-nav="5">
-                    <div className="o-hidden">
-                      <div className="link cursor-pointer dmenu">
-                        <Link className="fill-text" to="blog" smooth={true} duration={500}>
-                          Blog
-                        </Link>
-                      </div>
-                    </div>
-                  </li>
+                 
                   <li data-scroll-nav="6">
                     <div className="o-hidden">
                       <div className="link cursor-pointer dmenu">
@@ -171,18 +145,18 @@ function Navbar() {
                   <h6 className="sub-title mb-15 opacity-7">Social Media</h6>
                   <ul className="rest social-text">
                   <li className="mb-10">
-                      <a href="https://github.com/Reyansh17" className="hover-this">
+                      <a href="https://github.com/HARSHGUPTA3009" className="hover-this">
                         <span className="hover-anim">Github</span>
                       </a>
                     </li>
                    
                     <li className="mb-10">
-                      <a href="https://www.linkedin.com/in/reyanshgahlot/" className="hover-this">
+                      <a href="https://www.linkedin.com/in/harshguptaaa/" className="hover-this">
                         <span className="hover-anim">LinkedIn</span>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/reyansh_747?igsh=aGR5YzBrYXdkcG1l" className="hover-this">
+                      <a href="https://www.instagram.com/_harshhguptaa_/" className="hover-this">
                         <span className="hover-anim">Instagram</span>
                       </a>
                     </li>
@@ -191,10 +165,10 @@ function Navbar() {
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Me</h6>
                   <h5>
-                    <a href="mailto:rgahlot_be22@thapar.edu">rgahlot_be22@thapar.edu.com</a>
+                    <a href="mailto:rgahlot_be22@thapar.edu">hgupta1_be23@thapar.edu.com</a>
                   </h5>
                   <h5 className="underline mt-10">
-                    <a href="tel:+8112239954">+91 8112239954</a>
+                    <a href="tel:+8112239954">+91 9359177795</a>
                   </h5>
                 </div>
               </div>

@@ -22,10 +22,12 @@ function Services() {
           <div className="col-lg-4">
             <div className="item-box radius-15 md-mb30">
               <div className="ti-paint-bucket main-color fz-50 mb-40"></div>
-              <h5 className="mb-15">UI / UX Design</h5>
+              <h5 className="mb-15">Problem Solving(DSA)</h5>
               <p>
-              Designing intuitive and engaging user experiences that delight users and enhance usability
+              120+ problem solved on mulitple platforms in Java.
+              
               </p>
+              <a href='https://codolio.com/profile/harshgupta'> Codolio Card (click Me)</a>
               {/* <a href="/dark/page-services-details" className="rmore mt-30">
                 <span className="sub-title">Read More</span>
                 <img
@@ -56,7 +58,7 @@ function Services() {
           <div className="col-lg-4">
             <div className="item-box radius-15">
               <div className="ti-rocket main-color fz-50 mb-40"></div>
-              <h5 className="mb-15">Graphic Designing</h5>
+              <h5 className="mb-15">UI/UX Designing</h5>
               <p>
               Crafting visually stunning designs that captivate your audience and communicate your brand's message
               </p>

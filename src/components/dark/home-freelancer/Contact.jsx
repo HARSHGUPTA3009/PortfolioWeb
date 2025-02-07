@@ -37,9 +37,9 @@ function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const serviceId = "service_cw2ci7n";
-    const templateId = "template_e0qkqbx";
-    const publicKey = "nZFn9y8inZrE6ZsoE";
+    const serviceId = "service_xlmmw0r";
+    const templateId = "template_eh187wj";
+    const publicKey = "514xTP0XOnCw3E8x7";
 
     const data = {
       service_id: serviceId,
@@ -103,21 +103,21 @@ function Contact() {
                 I’d love to hear from you!
               </p>
               <div className="phone fz-30 fw-600 mt-80 underline main-color">
-                <a href="tel:+8112239954">+91 8112239954</a>
+                <a href="tel:9359177795">+91 9359177795</a>
               </div>
               <ul className="rest social-text d-flex mt-40">
                 <li className="mr-30">
-                  <a href="https://github.com/Reyansh17" className="hover-this">
+                  <a href="https://github.com/HARSHGUPTA3009" className="hover-this">
                     <span className="hover-anim">Github</span>
                   </a>
                 </li>
                 <li className="mr-30">
-                  <a href="https://www.linkedin.com/in/reyanshgahlot/" className="hover-this">
+                  <a href="https://www.linkedin.com/in/harshguptaaa/" className="hover-this">
                     <span className="hover-anim">LinkedIn</span>
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/reyansh_747?igsh=aGR5YzBrYXdkcG1l" className="hover-this">
+                  <a href="https://www.instagram.com/_harshhguptaa_/" className="hover-this">
                     <span className="hover-anim">Instagram</span>
                   </a>
                 </li>

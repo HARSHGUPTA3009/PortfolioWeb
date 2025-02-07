@@ -13,7 +13,7 @@ function About() {
               <div className="d-flex align-items-center">
                 <div>
                   <div className="info">
-                    <h3 className=" main-color fz-50 line-height-1">4</h3>
+                    <h3 className=" main-color fz-50 line-height-1">3</h3>
                     <p className="nowrap">
                       Years of
                       <br /> Experience
@@ -23,7 +23,7 @@ function About() {
                 <div>
                   <div className="img fit-img radius-30">
                     <img
-                      src="/dark/assets/imgs/intro/unproff3.jpeg"
+                      src="/dark/assets/imgs/bgremove.png"
                       alt=""
                     />
                   </div>
@@ -51,11 +51,11 @@ function About() {
               <div className="sec-head mb-30">
                 <h6 className="sub-title mb-15 main-color">About Me</h6>
                 <h2>
-                  Lead Web-Developer <br /> and Designer.
+                  Leading Web-Development <br /> and DSA in Java.
                 </h2>
                 <div className="text mt-15">
                   <p>
-                  Hello! I'm Reyansh Gahlot, a passionate tech enthusiast and dedicated sportsman. From a young age, I have been captivated by the ever-evolving world of technology and its potential to transform our lives.
+                  Hello! I'm Harsh Gupta, a passionate tech enthusiast and dedicated sportsman. From a young age, I have been captivated by the ever-evolving world of technology and its potential to transform our lives.
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ function About() {
                         <h6 className="nowrap fz-16">Name :</h6>
                       </div>
                       <div className="ml-20">
-                        <p className="fz-14">Reyansh Gahlot</p>
+                        <p className="fz-14">Harsh Gupta</p>
                       </div>
                     </div>
                     <div className="d-flex align-items-center">
@@ -75,7 +75,7 @@ function About() {
                         <h6 className="nowrap fz-16">Address :</h6>
                       </div>
                       <div className="ml-20">
-                        <p className="fz-14">Bikaner,Rajasthan</p>
+                        <p className="fz-14">Agra,Uttar Pradesh</p>
                       </div>
                     </div>
                   </div>
@@ -85,7 +85,7 @@ function About() {
                         <h6 className="nowrap fz-16">Phone :</h6>
                       </div>
                       <div className="ml-20">
-                        <p className="fz-14">+91 8112239954</p>
+                        <p className="fz-14">+91 9359177795</p>
                       </div>
                     </div>
                     <div className="d-flex align-items-center">
@@ -93,7 +93,7 @@ function About() {
                         <h6 className="nowrap fz-16">Email :</h6>
                       </div>
                       <div className="ml-20">
-                        <p className="fz-14">rgahlot_be22@thapar.edu</p>
+                        <p className="fz-14">hgupta1_be23@thapar.edu</p>
                       </div>
                     </div>
                   </div>

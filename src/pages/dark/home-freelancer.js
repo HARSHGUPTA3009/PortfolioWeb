@@ -18,7 +18,7 @@ export default function HomeFreelancer() {
   return (
     <>
       <Helmet>
-        <title>Reyansh</title>
+        <title>Harsh</title>
         <link rel="icon" href="/dark/imgs/favicon.ico" />
         <link rel="shortcut icon" href="/dark/imgs/favicon.ico" />
         <link
@@ -65,8 +65,6 @@ export default function HomeFreelancer() {
               <About />
               <Skills />
               <Portfolio />
-              <Testimonials />
-              <Blog />
               <Contact />
             </main>
             <Footer />

@@ -1,26 +1,32 @@
 [
   {
-    "img": "/dark/assets/imgs/works/portal.png",
-    "title": "Election Portal",
-    "subTitle": "Full Stack",
-    "link": "https://electionspatiala.com/"
+    "img": "/dark/assets/imgs/gdsc.png",
+    "title": "GDSC Thapar Offical Website",
+    "subTitle": "MERN",
+    "link": "https://www.gdsctiet.in"
   },
   {
-    "img": "/dark/assets/imgs/works/paisapocket.png",
-    "title": "Paisa Pocket",
+    "img": "/dark/assets/imgs/element.png",
+    "title": "Elementos Event Website",
     "subTitle": "Full Stack",
-    "link": "https://hack-mol-5-0.vercel.app/"
+    "link": "https://www.ietetiet.com"
   },
   {
-    "img": "/dark/assets/imgs/works/ctf.jpg",
-    "title": "CTF ",
-    "subTitle": "Flask",
-    "link": "https://github.com/Reyansh17/CTF"
+    "img": "/dark/assets/imgs/jobhive.png",
+    "title": "JobHive- A Job Portal ",
+    "subTitle": "MERN",
+    "link": "https://job-portal-cilent.vercel.app"
   },
   {
-    "img": "/dark/assets/imgs/works/portal.png",
-    "title": "Election Portal",
-    "subTitle": "Full Stack",
-    "link": "https://electionspatiala.com/"
+    "img": "/dark/assets/imgs/ietecombat.png",
+    "title": "A 2D Ninja Game",
+    "subTitle": "HTML CSS JavaScript",
+    "link": "https://iete-societyfair-project.vercel.app"
+  },
+  {
+    "img": "/dark/assets/imgs/todo.png",
+    "title": "A todo App",
+    "subTitle": "HTML CSS JavaScript",
+    "link": "https://todo-vercel-seven.vercel.app"
   }
 ]

@@ -51,7 +51,7 @@ function Skills() {
                   <img src="/dark/assets/imgs/resume/s3.png" alt="Development" style={imgInnerStyle} />
                 </div>
               </div>
-              <h6 className="fz-18 mt-10 text-center">Graphic Designing</h6>
+              <h6 className="fz-18 mt-10 text-center">DSA (JAVA)</h6>
             </motion.div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
@@ -61,7 +61,7 @@ function Skills() {
                   <img src="/dark/assets/imgs/resume/s4.png" alt="Development" style={imgInnerStyle} />
                 </div>
               </div>
-              <h6 className="fz-18 mt-10 text-center">Digital Marketing</h6>
+              <h6 className="fz-18 mt-10 text-center">Marketing</h6>
             </motion.div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
@@ -71,7 +71,7 @@ function Skills() {
                   <img src="/dark/assets/imgs/resume/s5.png" alt="Development" style={imgInnerStyle} />
                 </div>
               </div>
-              <h6 className="fz-18 mt-10 text-center">Embedded Systems</h6>
+              <h6 className="fz-18 mt-10 text-center">Arduino</h6>
             </motion.div>
           </div>
           <div className="col-lg-2 col-md-4 col-6">
@@ -81,7 +81,7 @@ function Skills() {
                   <img src="/dark/assets/imgs/resume/s6.png" alt="Development" style={imgInnerStyle} />
                 </div>
               </div>
-              <h6 className="fz-18 mt-10 text-center">Ai/Ml</h6>
+              <h6 className="fz-18 mt-10 text-center">Embedded Systems</h6>
             </motion.div>
           </div>
           {/* Add motion.div for each item similarly */}
