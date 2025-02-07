@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bord blur">
         <div className="container mx-auto px-4">
           <a className="logo icon-img-100" href="/">
-            <img src="/dark/assets/imgs/harsh.png" alt="logo" />
+            <img src="/dark/assets/imgs/Harsh.png" alt="logo" />
           </a>
 
           {/* <button
