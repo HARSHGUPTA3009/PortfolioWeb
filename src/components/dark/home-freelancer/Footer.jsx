@@ -7,7 +7,7 @@ function Footer() {
         <div className="row justify-content-center">
           <div className="col-lg-8 d-flex flex-column align-items-center text-center">
             <div className="logo icon-img-100 mb-3">
-              <img src="/dark/assets/imgs/Harsh.png" alt="Reyansh Logo" />
+              <img src="/dark/assets/imgs/Harsh.png" alt="harsh Logo" />
             </div>
             <p className="fz-14">
               © 2025 Harsh Gupta
