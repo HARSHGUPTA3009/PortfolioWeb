@@ -10,7 +10,7 @@ function Portfolio() {
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 0.1, // 3 seconds between slides
+      delay: 0.5, // 3 seconds between slides
       disableOnInteraction: false,
       pauseOnMouseEnter: true,
     },
