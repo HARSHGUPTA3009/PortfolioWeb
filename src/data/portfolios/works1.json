@@ -12,6 +12,12 @@
     "link": "https://www.ietetiet.com"
   },
   {
+    "img": "1.png",
+    "title": "Web3 Wallet",
+    "subTitle": "web3 Metamask React Solidity",
+    "link": "https://github.com/HARSHGUPTA3009/web3-wallet"
+  },
+  {
     "img": "ecomess.png",
     "title": "Mess Management System(Admin/User Based)",
     "subTitle": "MERN",
@@ -52,11 +58,5 @@
     "title": "A todo App",
     "subTitle": "HTML CSS JavaScript",
     "link": "https://todo-vercel-seven.vercel.app"
-  },
-  {
-    "img": "1.png",
-    "title": "A todo App",
-    "subTitle": "web3 Metamask React Solidity",
-    "link": "https://github.com/HARSHGUPTA3009/web3-wallet"
   }
 ]
