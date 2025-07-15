@@ -12,6 +12,30 @@
     "link": "https://www.ietetiet.com"
   },
   {
+    "img": "ecomess.png",
+    "title": "Mess Management System(Admin/User Based)",
+    "subTitle": "MERN",
+    "link": "https://ecomess.vercel.app/login"
+  },
+  {
+    "img": "1.png",
+    "title": "P2P Lending Dapp",
+    "subTitle": "Ether Hardhat Solidity web3 React",
+    "link": "https://github.com/HARSHGUPTA3009/lendify"
+  },
+  {
+    "img": "uniflow.png",
+    "title": "AI based ATS Scorer & cold emailing System",
+    "subTitle": "Ether Hardhat Solidity web3 React",
+    "link": "https://jobflow-black.vercel.app"
+  },
+  {
+    "img": "Expense.png",
+    "title": "Finance Tracking System with Data Analysis",
+    "subTitle": "MERN",
+    "link": "https://task-lemon-delta.vercel.app"
+  },
+  {
     "img": "/dark/assets/imgs/jobhive.png",
     "title": "JobHive- A Job Portal ",
     "subTitle": "MERN",

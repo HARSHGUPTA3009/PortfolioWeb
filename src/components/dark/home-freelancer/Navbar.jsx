@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bord blur">
         <div className="container mx-auto px-4">
           <a className="logo icon-img-100" href="/">
-            <img src="/dark/assets/imgs/Harsh.png" alt="logo" />
+           <img src="Harsh.svg" alt="logo" width="40" height="40" />
           </a>
 
           {/* <button
@@ -165,7 +165,7 @@ function Navbar() {
                 <div className="item mb-40">
                   <h6 className="sub-title mb-15 opacity-7">Contact Me</h6>
                   <h5>
-                    <a href="mailto:rgahlot_be22@thapar.edu">hgupta1_be23@thapar.edu.com</a>
+                    <a href="mailto:hgupta1_be23@thapar.edu">hgupta1_be23@thapar.edu.com</a>
                   </h5>
                   <h5 className="underline mt-10">
                     <a href="tel:+8112239954">+91 9359177795</a>

@@ -1,34 +1,36 @@
 'use client';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import data from '../../../data/portfolios/works1';
 
 function Portfolio() {
   const swiperOptions = {
-    modules: [Navigation],
+    modules: [Navigation, Autoplay],
     speed: 600,
     loop: true,
+    autoplay: {
+      delay: 0.1, // 3 seconds between slides
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
     navigation: {
       nextEl: '.swiper-arrow-control .swiper-button-next',
       prevEl: '.swiper-arrow-control .swiper-button-prev',
     },
     breakpoints: {
-      // when window width is >= 640px
       640: {
         loop: true,
         slidesPerView: 1,
         spaceBetween: 20,
         centeredSlides: false,
       },
-      // when window width is >= 768px
       768: {
         loop: true,
         slidesPerView: 2,
         spaceBetween: 50,
         centeredSlides: false,
       },
-      // when window width is >= 1200px
       1200: {
         loop: true,
         slidesPerView: 2,
@@ -37,6 +39,7 @@ function Portfolio() {
       },
     },
   };
+
   return (
     <section
       className="portfolio-carsouel section-padding"
@@ -72,7 +75,7 @@ function Portfolio() {
               <SwiperSlide key={i}>
                 <div className="item">
                   <div className="img object-fit ">
-                    <img src={item.img} alt="" className='h-100' />
+                    <img src={item.img} alt="" className="h-100" />
                   </div>
                   <div className="cont d-flex align-items-center mt-30 pb-15 bord-thin-bottom">
                     <div>
@@ -80,7 +83,7 @@ function Portfolio() {
                       <p>{item.subTitle}</p>
                     </div>
                     <div className="ml-auto">
-                    <a href={item.link} className="rmore">
+                      <a href={item.link} className="rmore">
                         <img
                           src="/dark/assets/imgs/arrow-right.png"
                           alt=""

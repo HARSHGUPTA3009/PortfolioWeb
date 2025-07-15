@@ -14,6 +14,15 @@ function Skills() {
     maxHeight: '100%',
   };
 
+  const skills = [
+    { img: '/dark/assets/imgs/resume/s2.png', title: 'Fullstack Dev' },
+    { img: '/dark/assets/imgs/resume/s3.png', title: 'DSA (JAVA)' },
+    { img: '/dark/assets/imgs/resume/genai.svg', title: 'GenAI' },
+    { img: '/dark/assets/imgs/resume/python.png', title: 'Python' },
+    { img: '/dark/assets/imgs/resume/blockchain.png', title: 'Web3' },
+    { img: '/dark/assets/imgs/resume/github.png', title: 'Github' },
+  ];
+
   return (
     <div className="my-skills2">
       <div className="container">
@@ -24,68 +33,25 @@ function Skills() {
           </h2>
         </div>
         <div className="row md-marg">
-          <div className="col-lg-2 col-md-4 col-6">
-            <motion.div className="item mb-30" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-              <div className="box-bord main-bg">
-                <div className="img" style={imgStyle}>
-                  <img src="/dark/assets/imgs/resume/s1.png" alt="UI / UX Design" style={imgInnerStyle} />
+          {skills.map((skill, idx) => (
+            <div key={idx} className="col-lg-2 col-md-4 col-6">
+              <motion.div
+                className="item mb-30"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                transition={{ delay: 0.05 * idx }}
+              >
+                <div className="box-bord main-bg">
+                  <div className="img" style={imgStyle}>
+                    <img src={skill.img} alt={skill.title} style={imgInnerStyle} />
+                  </div>
                 </div>
-              </div>
-              <h6 className="fz-18 mt-10 text-center">UI / UX Design</h6>
-            </motion.div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-6">
-            <motion.div className="item mb-30" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ delay: 0.1 }}>
-              <div className="box-bord main-bg">
-                <div className="img" style={imgStyle}>
-                  <img src="/dark/assets/imgs/resume/s2.png" alt="Development" style={imgInnerStyle} />
-                </div>
-              </div>
-              <h6 className="fz-18 mt-10 text-center">Development</h6>
-            </motion.div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-6">
-            <motion.div className="item mb-30" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ delay: 0.1 }}>
-              <div className="box-bord main-bg">
-                <div className="img" style={imgStyle}>
-                  <img src="/dark/assets/imgs/resume/s3.png" alt="Development" style={imgInnerStyle} />
-                </div>
-              </div>
-              <h6 className="fz-18 mt-10 text-center">DSA (JAVA)</h6>
-            </motion.div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-6">
-            <motion.div className="item mb-30" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ delay: 0.1 }}>
-              <div className="box-bord main-bg">
-                <div className="img" style={imgStyle}>
-                  <img src="/dark/assets/imgs/resume/s4.png" alt="Development" style={imgInnerStyle} />
-                </div>
-              </div>
-              <h6 className="fz-18 mt-10 text-center">Marketing</h6>
-            </motion.div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-6">
-            <motion.div className="item mb-30" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ delay: 0.1 }}>
-              <div className="box-bord main-bg">
-                <div className="img" style={imgStyle}>
-                  <img src="/dark/assets/imgs/resume/s5.png" alt="Development" style={imgInnerStyle} />
-                </div>
-              </div>
-              <h6 className="fz-18 mt-10 text-center">Arduino</h6>
-            </motion.div>
-          </div>
-          <div className="col-lg-2 col-md-4 col-6">
-            <motion.div className="item mb-30" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ delay: 0.1 }}>
-              <div className="box-bord main-bg">
-                <div className="img" style={imgStyle}>
-                  <img src="/dark/assets/imgs/resume/s6.png" alt="Development" style={imgInnerStyle} />
-                </div>
-              </div>
-              <h6 className="fz-18 mt-10 text-center">Embedded Systems</h6>
-            </motion.div>
-          </div>
-          {/* Add motion.div for each item similarly */}
+                <h6 className="fz-18 mt-10 text-center">{skill.title}</h6>
+              </motion.div>
+            </div>
+          ))}
         </div>
+
       </div>
     </div>
   );

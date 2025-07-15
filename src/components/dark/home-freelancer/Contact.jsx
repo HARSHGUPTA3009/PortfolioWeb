@@ -22,7 +22,6 @@ function Contact() {
       [name]: value,
     });
   };
-
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => setVisible(entry.isIntersecting));

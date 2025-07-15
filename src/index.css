@@ -4,6 +4,14 @@
   -o-object-position: center;
   object-position: center;
 } */
+
+/* Prevent black flash */
+html, body {
+  background-color: #0f0f0f; /* or match your theme */
+  margin: 0;
+  padding: 0;
+}
+
 .parallax-img {
   position: absolute;
   top: 50px;

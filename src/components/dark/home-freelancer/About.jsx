@@ -100,7 +100,7 @@ function About() {
                 </div>
               </div>
               <a
-                href="/cv.pdf"
+                href="/harshgupta1.pdf"
                 className="butn butn-md main-colorbg radius-30 mt-40"
                 target='_blank'
               >

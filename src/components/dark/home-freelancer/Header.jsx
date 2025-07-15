@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useLayoutEffect } from 'react';
+import { useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 
 function Header() {
@@ -30,7 +30,7 @@ function Header() {
       </div>
       <div className="caption">
         <h1 className="up stroke">
-          <span>I&#39;m a </span> <span>Developer</span>
+          
         </h1>
         <h1 className="down">
           <span>I&#39;m a </span> <span>Developer</span>
