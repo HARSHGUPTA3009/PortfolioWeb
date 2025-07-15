@@ -18,7 +18,7 @@
     "link": "https://ecomess.vercel.app/login"
   },
   {
-    "img": "1.png",
+    "img": "4.png",
     "title": "P2P Lending Dapp",
     "subTitle": "Ether Hardhat Solidity web3 React",
     "link": "https://github.com/HARSHGUPTA3009/lendify"
@@ -52,5 +52,11 @@
     "title": "A todo App",
     "subTitle": "HTML CSS JavaScript",
     "link": "https://todo-vercel-seven.vercel.app"
+  },
+  {
+    "img": "1.png",
+    "title": "A todo App",
+    "subTitle": "web3 Metamask React Solidity",
+    "link": "https://github.com/HARSHGUPTA3009/web3-wallet"
   }
 ]
