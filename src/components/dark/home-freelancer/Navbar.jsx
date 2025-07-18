@@ -10,20 +10,6 @@ function Navbar() {
            <img src="Harsh.svg" alt="logo" width="40" height="40" />
           </a>
 
-          {/* <button
-            className="navbar-toggler block lg:hidden"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="icon-bar">
-              <i className="fas fa-bars"></i>
-            </span>
-          </button> */}
-
           <div
             className="collapse navbar-collapse justify-content-center hidden lg:flex"
             id="navbarSupportedContent"
