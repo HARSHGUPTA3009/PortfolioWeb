@@ -1,9 +1,27 @@
 [
   {
+    "img": "sih.png",
+    "title": "SIH Project",
+    "subTitle": "AI/ML",
+    "link": "https://github.com/vishesh7124/ALM"
+  },
+  {
     "img": "/dark/assets/imgs/gdsc.png",
     "title": "GDSC Thapar Offical Website",
     "subTitle": "MERN",
     "link": "https://www.gdsctiet.in"
+  },
+  {
+    "img": "uniflow.png",
+    "title": "AI based ATS Scorer & cold emailing System",
+    "subTitle": "Ether Hardhat Solidity web3 React",
+    "link": "https://autojobflow.vercel.app"
+  },
+  {
+    "img": "sat.png",
+    "title": "Saturnalia Event Website",
+    "subTitle": "Full Stack",
+    "link": "https://github.com/HARSHGUPTA3009/saturnalia25/tree/main"
   },
   {
     "img": "/dark/assets/imgs/element.png",
@@ -30,12 +48,6 @@
     "link": "https://github.com/HARSHGUPTA3009/lendify"
   },
   {
-    "img": "uniflow.png",
-    "title": "AI based ATS Scorer & cold emailing System",
-    "subTitle": "Ether Hardhat Solidity web3 React",
-    "link": "https://jobflow-black.vercel.app"
-  },
-  {
     "img": "Expense.png",
     "title": "Finance Tracking System with Data Analysis",
     "subTitle": "MERN",
@@ -43,7 +55,7 @@
   },
   {
     "img": "/dark/assets/imgs/jobhive.png",
-    "title": "JobHive- A Job Portal ",
+    "title": "JobHive- A Job Portal",
     "subTitle": "MERN",
     "link": "https://job-portal-cilent.vercel.app"
   },

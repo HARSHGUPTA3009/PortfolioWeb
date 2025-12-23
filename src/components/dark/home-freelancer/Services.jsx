@@ -22,7 +22,7 @@ function Services() {
             <div className="item-box radius-15 md-mb30">
               <div className="ti-paint-bucket main-color fz-50 mb-40"></div>
               <h5 className="mb-15">Problem Solving (DSA)</h5>
-              <p>350+ problems solved on multiple platforms in Java.</p>
+              <p>400+ problems solved on multiple platforms in Java.</p>
               <a href="https://codolio.com/profile/harshgupta">Codolio Card (click Me)</a>
             </div>
           </div>
