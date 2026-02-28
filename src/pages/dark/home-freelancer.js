@@ -62,10 +62,10 @@ export default function HomeFreelancer() {
           <div id="smooth-content">
             <main className="main-bg">
               <Header />
+              <Portfolio />
               <Services />
               <About />
               <Skills />
-              <Portfolio />
               <Contact />
             </main>
             <Footer />

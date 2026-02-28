@@ -2,7 +2,7 @@ import React from 'react';
 
 function Services() {
   return (
-    <section className="services section-padding pb-0" data-scroll-index="1">
+    <section className="services" data-scroll-index="1">
       <div className="container">
         <div className="sec-head mb-80">
           <h6 className="sub-title main-color mb-25">My Specialization</h6>

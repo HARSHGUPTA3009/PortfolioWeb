@@ -18,6 +18,12 @@
     "link": "https://autojobflow.vercel.app"
   },
   {
+    "img": "hosmas.png",
+    "title": "Hosmas",
+    "subTitle": "Hostel Management Application",
+    "link": "https://github.com/HARSHGUPTA3009/hosmas.git"
+  },
+  {
     "img": "sat.png",
     "title": "Saturnalia Event Website",
     "subTitle": "Full Stack",
@@ -64,11 +70,5 @@
     "title": "A 2D Ninja Game",
     "subTitle": "HTML CSS JavaScript",
     "link": "https://iete-societyfair-project.vercel.app"
-  },
-  {
-    "img": "/dark/assets/imgs/todo.png",
-    "title": "A todo App",
-    "subTitle": "HTML CSS JavaScript",
-    "link": "https://todo-vercel-seven.vercel.app"
   }
 ]
