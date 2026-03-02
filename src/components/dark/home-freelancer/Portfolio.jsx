@@ -5,8 +5,8 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import data from '../../../data/portfolios/works1';
 
 function Portfolio() {
-  const [, setHoveredIndex] = useState(null);
-
+  
+  
   const swiperOptions = {
     modules: [Navigation, Autoplay],
     speed: 700,
@@ -395,8 +395,7 @@ function Portfolio() {
             <div
               key={i}
               className={`grid-card${i === 0 ? ' featured' : ''}`}
-              onMouseEnter={() => setHoveredIndex(i)}
-              onMouseLeave={() => setHoveredIndex(null)}
+        
             >
               <img src={item.img} alt={item.title} className="card-img" />
               <div className="badge">#{String(i + 1).padStart(2, '0')}</div>
