@@ -5,7 +5,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 import data from '../../../data/portfolios/works1';
 
 function Portfolio() {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [_, setHoveredIndex] = useState(null);
 
   const swiperOptions = {
     modules: [Navigation, Autoplay],
