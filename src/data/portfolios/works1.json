@@ -3,13 +3,13 @@
     "img": "sih.png",
     "title": "SIH Project",
     "subTitle": "AI/ML",
-    "link": "https://github.com/vishesh7124/ALM"
+    "link": "https://github.com/HARSHGUPTA3009/SIH25-NIRMAN-ALM"
   },
   {
-    "img": "/dark/assets/imgs/gdsc.png",
-    "title": "GDSC Thapar Offical Website",
-    "subTitle": "MERN",
-    "link": "https://www.gdsctiet.in"
+    "img": "minicloud.png",
+    "title": "PAAS Sofware",
+    "subTitle": "Docker, Redis, Typescript, BULLMQ",
+    "link": "https://github.com/HARSHGUPTA3009/minicloud"
   },
   {
     "img": "uniflow.png",
@@ -22,6 +22,12 @@
     "title": "Hosmas",
     "subTitle": "Hostel Management Application",
     "link": "https://github.com/HARSHGUPTA3009/hosmas.git"
+  },
+  {
+    "img": "/dark/assets/imgs/gdsc.png",
+    "title": "GDSC Thapar Offical Website",
+    "subTitle": "MERN",
+    "link": "https://www.gdsctiet.in"
   },
   {
     "img": "sat.png",
