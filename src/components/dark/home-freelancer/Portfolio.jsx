@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import data from '../../../data/portfolios/works1';
