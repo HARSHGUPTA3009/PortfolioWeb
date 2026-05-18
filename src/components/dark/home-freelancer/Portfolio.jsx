@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 'use client';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -205,7 +206,7 @@ function Portfolio() {
 
         @media (min-width: 1200px) {
           .portfolio-grid {
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(8, 1fr);
           }
         }
         @media (min-width: 900px) and (max-width: 1199px) {
@@ -345,7 +346,7 @@ function Portfolio() {
         }
       `}</style>
 
-      <div className="container">
+      <div className="container" id="portfolio-section">
         {/* Header */}
         <div className="sec-head">
           <h6 className="sub-title main-color">My Portfolio</h6>
@@ -353,48 +354,17 @@ function Portfolio() {
             <h2>
               Selected <span>Works</span>
             </h2>
-            <div className="ml-auto">
-              <div className="swiper-arrow-control">
-                <div className="swiper-button-prev">←</div>
-                <div className="swiper-button-next">→</div>
-              </div>
-            </div>
+          
           </div>
         </div>
 
-        {/* ── Carousel (5–6 per row, small cards) ── */}
-        <Swiper
-          id="content-carousel-container-unq-work"
-          className="swiper-container"
-          {...swiperOptions}
-        >
-          {data.map((item, i) => (
-            <SwiperSlide key={i}>
-              <div className="carousel-item-small">
-                <div className="img-wrap">
-                  <img src={item.img} alt={item.title} />
-                  <div className="overlay">
-                    <a href={item.link} className="overlay-link" target="_blank" rel="noreferrer">↗</a>
-                  </div>
-                </div>
-                <div className="label">{item.title}</div>
-                <div className="tag">{item.subTitle}</div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-
-        {/* ── Divider ── */}
-        <div className="section-divider">
-          <span>All Projects</span>
-        </div>
-
+      
         {/* ── Static Grid ── */}
         <div className="portfolio-grid">
           {data.map((item, i) => (
             <div
               key={i}
-              className={`grid-card${i === 0 ? ' featured' : ''}`}
+              className={`grid-card${i <5 ? ' featured' : ''}`}
         
             >
               <img src={item.img} alt={item.title} className="card-img" />

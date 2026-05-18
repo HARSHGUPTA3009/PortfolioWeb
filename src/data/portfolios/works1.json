@@ -24,6 +24,12 @@
     "link": "https://github.com/HARSHGUPTA3009/hosmas.git"
   },
   {
+    "img": "hotel.png",
+    "title": "Client Website",
+    "subTitle": "Paid Project",
+    "link": "https://hotelharshvilas.vercel.app/"
+  },
+  {
     "img": "/dark/assets/imgs/gdsc.png",
     "title": "GDSC Thapar Offical Website",
     "subTitle": "MERN",
