@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/heading-has-content */
 /* eslint-disable no-unused-vars */
 'use client';
 import { useLayoutEffect, useState } from 'react';
